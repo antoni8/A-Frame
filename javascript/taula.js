@@ -28,7 +28,7 @@ AFRAME.registerComponent('taula-mapa', {
         el.appendChild(nordamerica);
 
         let sudamerica = document.createElement("a-circle");
-        sudamerica.setAttribute('id', 'sudam');
+        sudamerica.setAttribute('id', 2);
         sudamerica.setAttribute('position', {
             x: -0.684,
             y: 0.759,
@@ -70,7 +70,7 @@ AFRAME.registerComponent('taula-mapa', {
         el.appendChild(europa);
 
         let africa = document.createElement("a-circle");
-        africa.setAttribute('id', 'af');
+        africa.setAttribute('id', 3);
         africa.setAttribute('position', {
             x: 0.189,
             y: 0.792,
@@ -91,7 +91,7 @@ AFRAME.registerComponent('taula-mapa', {
         el.appendChild(africa);
 
         let asia = document.createElement("a-circle");
-        asia.setAttribute('id', 'as');
+        asia.setAttribute('id', 4);
         asia.setAttribute('position', {
             x: 1.194,
             y: 0.892,
@@ -112,7 +112,7 @@ AFRAME.registerComponent('taula-mapa', {
         el.appendChild(asia);
 
         let australia = document.createElement("a-circle");
-        australia.setAttribute('id', 'aus');
+        australia.setAttribute('id', 5);
         australia.setAttribute('position', {
             x: 1.591,
             y: 0.726,
