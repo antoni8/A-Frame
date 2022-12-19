@@ -5,43 +5,43 @@
         "paisos" : [
             {
                 "id" : 1,
-                "nom" : "Spain",
-                "jpg" : "world/europa/Espanya.png"
-            },
-            {
-                "id" : 2,
-                "nom" : "Germany",
+                "nom" : "Alemania",
                 "jpg" : "world/europa/Alemania.png"
             },
             {
-                "id" : 3,
-                "nom" : "France",
-                "jpg" : "world/europa/França.png"
-            },
-            {
-                "id" : 4,
-                "nom" : "England",
-                "jpg" : "world/europa/Inglaterra.png"
-            },
-            {
-                "id" : 5,
-                "nom" : "Italy",
-                "jpg" : "world/europa/Italia.png"
-            },
-            {
-                "id" : 6,
-                "nom" : "Belgium",
-                "jpg" : "world/europa/Bèlgica.png"
-            },
-            {
-                "id" : 7,
+                "id" : 2,
                 "nom" : "Austria",
                 "jpg" : "world/europa/Austria.png"
             },
             {
-                "id" : 8,
-                "nom" : "Netherlands",
+                "id" : 3,
+                "nom" : "Belgica",
+                "jpg" : "world/europa/Bèlgica.png"
+            },
+            {
+                "id" : 4,
+                "nom" : "Espanya",
+                "jpg" : "world/europa/Espanya.png"
+            },
+            {
+                "id" : 5,
+                "nom" : "França",
+                "jpg" : "world/europa/França.png"
+            },
+            {
+                "id" : 6,
+                "nom" : "Holanda",
                 "jpg" : "world/europa/Holanda.png"
+            },
+            {
+                "id" : 7,
+                "nom" : "Inglaterra",
+                "jpg" : "world/europa/Inglaterra.png"
+            },
+            {
+                "id" : 8,
+                "nom" : "Italia",
+                "jpg" : "world/europa/Italia.png"
             }
         ]
     },
@@ -56,97 +56,182 @@
             },
             {
                 "id" : 2,
-                "nom" : "USA",
-                "jpg" : "world/nordamerica/USA.png"
+                "nom" : "Costa Rica",
+                "jpg" : "world/nordamerica/CostaRica.png"
             },
             {
                 "id" : 3,
-                "nom" : "Mexico",
+                "nom" : "Cuba",
+                "jpg" : "world/nordamerica/Cuba.png"
+            },
+            {
+                "id" : 4,
+                "nom" : "Jamaica",
+                "jpg" : "world/nordamerica/Jamaica.png"
+            },
+            {
+                "id" : 5,
+                "nom" : "Mexic",
                 "jpg" : "world/nordamerica/Mèxic.png"
+            },
+            {
+                "id" : 6,
+                "nom" : "Panama",
+                "jpg" : "world/nordamerica/Panama.png"
+            },
+            {
+                "id" : 7,
+                "nom" : "Puerto Rico",
+                "jpg" : "world/nordamerica/PR.png"
+            },
+            {
+                "id" : 8,
+                "nom" : "Republica Dominicana",
+                "jpg" : "world/nordamerica/RD.png"
+            },
+            {
+                "id" : 9,
+                "nom" : "Estats Units",
+                "jpg" : "world/nordamerica/USA.png"
             }
         ]
     },
     {
-        "id": 2,
+        "id": 3,
         "name": "Sudamerica",
         "paisos" : [
             {
                 "id" : 1,
-                "nom" : "Canada",
-                "jpg" : "world/nordamerica/Canadà.png"
+                "nom" : "Argentina",
+                "jpg" : "world/sudamerica/Argentina.png"
             },
             {
                 "id" : 2,
-                "nom" : "USA",
-                "jpg" : "world/nordamerica/USA.png"
+                "nom" : "Bolivia",
+                "jpg" : "world/sudamerica/Bolivia.png"
             },
             {
                 "id" : 3,
-                "nom" : "Mexico",
-                "jpg" : "world/nordamerica/Mèxic.png"
+                "nom" : "Brasil",
+                "jpg" : "world/sudamerica/Brasil.png"
+            },
+            {
+                "id" : 4,
+                "nom" : "Chile",
+                "jpg" : "world/sudamerica/Chile.png"
+            },
+            {
+                "id" : 5,
+                "nom" : "Colombia",
+                "jpg" : "world/sudamerica/Colombia.png"
+            },
+            {
+                "id" : 6,
+                "nom" : "Ecuador",
+                "jpg" : "world/sudamerica/Ecuador.png"
+            },
+            {
+                "id" : 7,
+                "nom" : "Peru",
+                "jpg" : "world/sudamerica/Peru.png"
+            },
+            {
+                "id" : 8,
+                "nom" : "Uruguay",
+                "jpg" : "world/sudamerica/Uruguay.png"
             }
         ]
     },
     {
-        "id": 2,
+        "id": 4,
         "name": "Africa",
         "paisos" : [
             {
                 "id" : 1,
-                "nom" : "Canada",
-                "jpg" : "world/nordamerica/Canadà.png"
+                "nom" : "Kenia",
+                "jpg" : "world/africa/Kenia.png"
             },
             {
                 "id" : 2,
-                "nom" : "USA",
-                "jpg" : "world/nordamerica/USA.png"
+                "nom" : "Marroc",
+                "jpg" : "world/africa/MArruecos.png"
             },
             {
                 "id" : 3,
-                "nom" : "Mexico",
-                "jpg" : "world/nordamerica/Mèxic.png"
+                "nom" : "Nigeria",
+                "jpg" : "world/africa/Nigeria.png"
+            },
+            {
+                "id" : 4,
+                "nom" : "Sudafrica",
+                "jpg" : "world/africa/Sudafrica.png"
+            },
+            {
+                "id" : 5,
+                "nom" : "Etiopia",
+                "jpg" : "world/africa/Etiopia.png"
             }
         ]
     },
     {
-        "id": 2,
+        "id": 5,
         "name": "Asia",
         "paisos" : [
             {
                 "id" : 1,
-                "nom" : "Canada",
-                "jpg" : "world/nordamerica/Canadà.png"
+                "nom" : "Corea del Nord",
+                "jpg" : "world/asia/CoreaDelNorte.png"
             },
             {
                 "id" : 2,
-                "nom" : "USA",
-                "jpg" : "world/nordamerica/USA.png"
+                "nom" : "India",
+                "jpg" : "world/asia/India.png"
             },
             {
                 "id" : 3,
+                "nom" : "Isla de Navidad",
+                "jpg" : "world/asia/IslaDeNavidad.png"
+            },
+            {
+                "id" : 3,
+                "nom" : "Japo",
+                "jpg" : "world/asia/Japon.png"
+            },
+            {
+                "id" : 4,
+                "nom" : "Mongolia",
+                "jpg" : "world/asia/Mongolia.png"
+            },
+            {
+                "id" : 5,
+                "nom" : "Xina",
+                "jpg" : "world/asia/China.png"
+            },
+            {
+                "id" : 6,
                 "nom" : "Mexico",
-                "jpg" : "world/nordamerica/Mèxic.png"
+                "jpg" : "world/asia/Mèxic.png"
             }
         ]
     },
     {
-        "id": 2,
+        "id": 6,
         "name": "Australia",
         "paisos" : [
             {
                 "id" : 1,
-                "nom" : "Canada",
-                "jpg" : "world/nordamerica/Canadà.png"
+                "nom" : "Australia",
+                "jpg" : "world/oceania/Australia.png"
             },
             {
                 "id" : 2,
-                "nom" : "USA",
-                "jpg" : "world/nordamerica/USA.png"
+                "nom" : "Nova Zelanda",
+                "jpg" : "world/oceania/NuevaZelanda.png"
             },
             {
                 "id" : 3,
-                "nom" : "Mexico",
-                "jpg" : "world/nordamerica/Mèxic.png"
+                "nom" : "Papua Nova Guinea",
+                "jpg" : "world/oceania/PapuaNuevaGuinea.png"
             }
         ]
     }
