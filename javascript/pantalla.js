@@ -32,22 +32,17 @@ AFRAME.registerComponent('pantalla', {
         let continentNum = this.data.continent;
         let continent = continents[continentNum];
         var el = this.el;
-        console.log(continent);
-
-        // document.querySelector('#titol').setAttribute('value', galeria.tema);
-        // let assets = document.querySelector('a-asset');
 
         while(el.firstElementChild) {
             el.firstElementChild.remove();
         }
-
         let i=0;
+
         for (let pais of continent.paisos) {
             let llista = document.createElement('a-entity');
             llista.setAttribute("geometry", "primitive", "plane");
             llista.setAttribute("geometry","width", el.getAttribute("geometry").width-.5);
             llista.setAttribute("geometry","height", el.getAttribute("geometry").height/continent.paisos.length);
-            console.log(i*-el.getAttribute("geometry").height/continent.paisos.length);
             llista.setAttribute("position", {
                 x:0,
                 y:i*-el.getAttribute("geometry").height/continent.paisos.length+2,
@@ -55,7 +50,6 @@ AFRAME.registerComponent('pantalla', {
             })
             llista.setAttribute("width", 10);
             llista.setAttribute("height", el.getAttribute("geometry").height/continent.paisos.length);
-            // llista.setAttribute("material", "color", "black");
             el.appendChild(llista);
 
             let bandera = document.createElement('a-entity');
@@ -84,7 +78,6 @@ AFRAME.registerComponent('pantalla', {
             })
             llista.appendChild(nomPais);
             i++;
-            document.querySelector('a-scene').flushToDOM(true);
         };
     },
 });

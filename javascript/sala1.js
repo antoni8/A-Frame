@@ -15,7 +15,7 @@ AFRAME.registerComponent("sala", {
         console.log(el.object3D.position);
         entityleft.setAttribute('position', {
             x: el.object3D.position.x  - 10,
-            y: 2.5,
+            y: this.data.height/2,
             z: el.object3D.position.z
         });
         entityleft.setAttribute('rotation', {
@@ -32,7 +32,7 @@ AFRAME.registerComponent("sala", {
         entityright.setAttribute('color', el.getAttribute('color'));
         entityright.setAttribute("position", {
             x: el.object3D.position.x + 10,
-            y: 2.5,
+            y: this.data.height/2,
             z: el.object3D.position.z
         });
         entityright.setAttribute('rotation', {
@@ -48,7 +48,7 @@ AFRAME.registerComponent("sala", {
         entityfront.setAttribute('color', el.getAttribute('color'));
         entityfront.setAttribute("position", {
             x: el.object3D.position.x,
-            y: 2.5,
+            y: this.data.height/2,
             z: el.object3D.position.z - 10,
         });
         el.appendChild(entityfront);
@@ -59,7 +59,7 @@ AFRAME.registerComponent("sala", {
         entityback.setAttribute('color', el.getAttribute('color'));
         entityback.setAttribute("position", {
             x: el.object3D.position.x,
-            y: 2.5,
+            y: this.data.height/2,
             z: el.object3D.position.z + 10,
         });
         entityback.setAttribute('rotation', {

@@ -6,9 +6,15 @@
   <script src="javascript/taula.js"></script>
   <script src="javascript/eventlistener.js"></script>
   <script src="javascript/pantalla.js"></script>
+  <script src="javascript/pre-loader.js"></script>
+  <link rel="stylesheet" href="css/preload.css">
   </head>
   <body>
-  	<a-scene light="defaultLightsEnabled: false" physics="debug: true;" loading-screen="dotsColor: red; backgroundColor: black">
+    <div id="splash" style="background-color: rgba(0, 0, 0, 0.85);">
+      <div class="loading"></div>
+      <div class="start-button">Start</div>
+    </div>
+  	<a-scene light="defaultLightsEnabled: false" physics="debug: true;">
       <a-asset>
         <!-- items -->
         <a-asset-item id="taula" src="obj/taula_terra.glb"></a-asset-item>
@@ -18,12 +24,13 @@
         <img src="textures/starmap2.jpg" id="starmap2">
         <img src="textures/starmap_g4k.jpg" id="starmap">
         <img src="textures/2k_moon.jpg" id="provasrc">
+
       </a-asset>
 
       <a-asset id="asset-dinamic"></a-asset>
 
       <!-- SALA -->
-      <a-entity sala="widthV:20;height:5;widthH:20;" position="0 0 0" color="red"></a-entity>
+      <a-entity sala="widthV:20;height:10;widthH:20;" position="0 0 0" color="red"></a-entity>
 
       <!-- OBJECTES -->
       <a-entity gltf-model="#taula" position="0 0 -5" taula-mapa body="shape: box;"></a-entity>
