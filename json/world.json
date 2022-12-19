@@ -1,0 +1,154 @@
+[
+    {
+        "id": 1,
+        "name": "Europa",
+        "paisos" : [
+            {
+                "id" : 1,
+                "nom" : "Spain",
+                "jpg" : "world/europa/Espanya.png"
+            },
+            {
+                "id" : 2,
+                "nom" : "Germany",
+                "jpg" : "world/europa/Alemania.png"
+            },
+            {
+                "id" : 3,
+                "nom" : "France",
+                "jpg" : "world/europa/França.png"
+            },
+            {
+                "id" : 4,
+                "nom" : "England",
+                "jpg" : "world/europa/Inglaterra.png"
+            },
+            {
+                "id" : 5,
+                "nom" : "Italy",
+                "jpg" : "world/europa/Italia.png"
+            },
+            {
+                "id" : 6,
+                "nom" : "Belgium",
+                "jpg" : "world/europa/Bèlgica.png"
+            },
+            {
+                "id" : 7,
+                "nom" : "Austria",
+                "jpg" : "world/europa/Austria.png"
+            },
+            {
+                "id" : 8,
+                "nom" : "Netherlands",
+                "jpg" : "world/europa/Holanda.png"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Nordamerica",
+        "paisos" : [
+            {
+                "id" : 1,
+                "nom" : "Canada",
+                "jpg" : "world/nordamerica/Canadà.png"
+            },
+            {
+                "id" : 2,
+                "nom" : "USA",
+                "jpg" : "world/nordamerica/USA.png"
+            },
+            {
+                "id" : 3,
+                "nom" : "Mexico",
+                "jpg" : "world/nordamerica/Mèxic.png"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Sudamerica",
+        "paisos" : [
+            {
+                "id" : 1,
+                "nom" : "Canada",
+                "jpg" : "world/nordamerica/Canadà.png"
+            },
+            {
+                "id" : 2,
+                "nom" : "USA",
+                "jpg" : "world/nordamerica/USA.png"
+            },
+            {
+                "id" : 3,
+                "nom" : "Mexico",
+                "jpg" : "world/nordamerica/Mèxic.png"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Africa",
+        "paisos" : [
+            {
+                "id" : 1,
+                "nom" : "Canada",
+                "jpg" : "world/nordamerica/Canadà.png"
+            },
+            {
+                "id" : 2,
+                "nom" : "USA",
+                "jpg" : "world/nordamerica/USA.png"
+            },
+            {
+                "id" : 3,
+                "nom" : "Mexico",
+                "jpg" : "world/nordamerica/Mèxic.png"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Asia",
+        "paisos" : [
+            {
+                "id" : 1,
+                "nom" : "Canada",
+                "jpg" : "world/nordamerica/Canadà.png"
+            },
+            {
+                "id" : 2,
+                "nom" : "USA",
+                "jpg" : "world/nordamerica/USA.png"
+            },
+            {
+                "id" : 3,
+                "nom" : "Mexico",
+                "jpg" : "world/nordamerica/Mèxic.png"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Australia",
+        "paisos" : [
+            {
+                "id" : 1,
+                "nom" : "Canada",
+                "jpg" : "world/nordamerica/Canadà.png"
+            },
+            {
+                "id" : 2,
+                "nom" : "USA",
+                "jpg" : "world/nordamerica/USA.png"
+            },
+            {
+                "id" : 3,
+                "nom" : "Mexico",
+                "jpg" : "world/nordamerica/Mèxic.png"
+            }
+        ]
+    }
+]
+
