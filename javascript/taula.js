@@ -132,27 +132,14 @@ AFRAME.registerComponent('taula-mapa', {
         australia.setAttribute('taula-mapa-event-listener', null);
         el.appendChild(australia);
 
-        let peu = document.createElement("a-box");
-        peu.setAttribute('body', 'shape', 'box');
-        peu.setAttribute()
-        peu.setAttribute('position', {
-            x: 0,
-            y: 0,
-            z: 0
-        });
-
         let texte = document.createElement("a-entity");
         texte.setAttribute("text", "value", "Tria un continent");
         texte.setAttribute("text", "color", "Black");
         texte.setAttribute("text", "align", "center");
         texte.setAttribute("position", {
             x:0,
-            y:1.1,
+            y:1.2,
             z:-1
-        });texte.setAttribute("rotation", {
-            x:-45,
-            y:0,
-            z:0
         });
         texte.setAttribute("scale", {
             x:2,

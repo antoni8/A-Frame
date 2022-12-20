@@ -14,7 +14,7 @@
       <div class="loading"></div>
       <div class="start-button">Start</div>
     </div>
-  	<a-scene light="defaultLightsEnabled: false" physics="debug: true;">
+  	<a-scene light="defaultLightsEnabled: false" physics="debug: true;" vr-mode-ui="enabled: false">
       <a-asset>
         <!-- items -->
         <a-asset-item id="taula" src="obj/taula_terra.glb"></a-asset-item>
@@ -33,7 +33,7 @@
       <a-entity sala="widthV:20;height:10;widthH:20;" position="0 0 0" color="red"></a-entity>
 
       <!-- OBJECTES -->
-      <a-entity gltf-model="#taula" position="0 0 -5" taula-mapa body="shape: box;"></a-entity>
+      <a-entity gltf-model="#taula" position="0 0 -5" taula-mapa></a-entity>
       <a-entity gltf-model="#terra" position="-5 2.5 -5" scale="2 2 2" animation="property: rotation; to: 0 360 0; dur: 20000; easing: linear; loop: true"></a-entity>
       <a-entity pantalla="informacio:json/world.json;" id="pantalla" material="opacity:0;" geometry="primitive:box;width:10; height:5; depth:0.001" position="0 3.5 -9.9">
       </a-entity>
